@@ -1,0 +1,19 @@
+.box{
+
+}
+.row{
+  display: flex;
+}
+.col{
+  width: 18px;
+  height: 18px;
+  line-height: 20px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+.alive{
+  background: red
+}
+.die{
+  background: #eee
+}
