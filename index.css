@@ -1,5 +1,12 @@
-.box{
-
+#box{
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: fit-content;
+  height: fit-content
 }
 .row{
   display: flex;
@@ -16,4 +23,51 @@
 }
 .die{
   background: #eee
+}
+.tableBox{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background: #ddd
+}
+.table{
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  height: 150px;
+  background: #eee;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s all;
+  text-align: center;
+  padding: 50px 0 ;
+}
+.table:hover{
+  box-shadow: 5px 5px 5px #aaa;
+}
+.input{
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+.startBtn{
+  margin: 60px auto;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 150px;
+  line-height: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s all;
+  background: #409EFF
+}
+.startBtn:hover{
+  box-shadow: 5px 5px 5px #409EFF;
 }
