@@ -100,11 +100,11 @@ function createTable(){
   input.className = 'input'
   startBtn.className = 'startBtn'
   startBtn.innerHTML = '进入游戏'
+  startBtn.onclick = startClick
   box.appendChild(tableBox)
   tableBox.appendChild(table)
   table.appendChild(input)
   table.appendChild(startBtn)
-  startBtn.onclick = startClick()
 }
 
 function startClick(){
